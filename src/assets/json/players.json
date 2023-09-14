@@ -1,0 +1,62 @@
+[
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "gold rare"
+    }, 
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "if gold rare"
+    },
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "gold non-rare"
+    }, 
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "silver rare"
+    }, 
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "silver non-rare"
+    }, 
+    {
+        "id": "239085",
+        "name": "Haaland",
+        "rating": "91",
+        "pos": "ST",
+        "nation": "36",
+        "league": "13",
+        "club": "10",
+        "type": "ucl_hero"
+    }
+]

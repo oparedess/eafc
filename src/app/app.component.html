@@ -1,14 +1,21 @@
 <div class="home text-center">
-  <div class="card" [ngClass]="i" *ngFor="let i of ['gold-rare','gold-common', 'silver-rare', 'silver-common', 'bronze-rare', 'bronze-common', 'if-gold', 'if-silver', 'if-bronze', 'fut-champions', 'heroe', 'icon']">
-    <img src="https://cdn.futbin.com/content/fifa24/img/players/p999503.png?v=23" class="card-img-top" alt="">
-    <div class="card-body">
-      <h5 class="card-title">Pelé</h5>
-      <small>99</small>
-      <p class="card-text">
-        <img style="width:20px;" src="https://cdn.futbin.com/content/fifa24/img/clubs/114605.png">
-        <img style="width: 24px;" src="https://cdn.futbin.com/content/fifa24/img/nation/27.png">
-        <img style="width: 24px;" src="https://cdn.futbin.com/content/fifa24/img/league/31.png">
-      </p>
+  <div id="Player-card" class="pcdisplay ut24 card-med center-block" ngClass="{{ jugador.type }}" *ngFor="let jugador of data">
+    <div class="top-overlay"></div>
+    <div class="pcdisplay-rat">{{ jugador.rating }}</div>
+    <div class="pcdisplay-name">{{ jugador.name }}</div>
+    <div class="pcdisplay-pos">{{ jugador.pos }}</div>
+
+    <div class="pcdisplay-country">
+      <img alt="n" class="lazy-main-cln lazyloaded" id="player_nation" src="https://cdn.futbin.com/content/fifa24/img/nation/27.png">
     </div>
-  </div>
+    <div class="pcdisplay-club">
+      <img alt="c" class="lazy-main-cln lazyloaded" id="player_club" src="https://cdn.futbin.com/content/fifa24/img/clubs/114605.png">
+    </div>
+    <div class="pcdisplay-league">
+      <img alt="c" class="lazy-main-cln lazyloaded" id="player_league" src="{{'https://cdn.futbin.com/content/fifa24/img/league/' + jugador.league + '.png'}}">
+    </div>
+    <div class="pcdisplay-picture special-img">
+      <img class="pcdisplay-picture-width lazy-main-player lazyloaded" id="player_pic" src="{{'https://cdn.futbin.com/content/fifa24/img/players/' + jugador.id + '.png'}}" alt="FIFA 24 Gianluca Vialli 91">
+    </div>
+  </div>  
 </div>
